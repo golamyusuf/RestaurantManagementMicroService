@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.golam</groupId>
-	<artifactId>restaurantlisting</artifactId>
+	<artifactId>foodCatalogue</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>restaurantlisting</name>
-	<description>Demo project for Spring Boot Restaurant Listing</description>
+	<name>foodCatalogue</name>
+	<description>Demo project for Food Catalogue Micro Service</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -65,6 +65,12 @@
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct</artifactId>
             <version>1.6.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct-processor</artifactId>
+            <version>1.6.3</version>
+            <scope>provided</scope>
         </dependency>
 	</dependencies>
 	<dependencyManagement>

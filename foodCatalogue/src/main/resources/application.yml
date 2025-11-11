@@ -15,7 +15,7 @@ spring:
   application:
     name: USER-INFO-SERVICE
   datasource:
-    url: jdbc:mysql://localhost:3306/restaurantDB?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/foodcatalogueDB?useSSL=false&serverTimezone=UTC
     username: yusuf
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver

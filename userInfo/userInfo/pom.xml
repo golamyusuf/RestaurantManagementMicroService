@@ -11,7 +11,7 @@
 	<groupId>com.golam</groupId>
 	<artifactId>userInfo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>User Information</name>
+	<name>UserService</name>
 	<description>Demo project for Spring Boot Restaurant Listing</description>
 	<url/>
 	<licenses>

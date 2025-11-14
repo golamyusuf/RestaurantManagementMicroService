@@ -6,9 +6,12 @@ spring:
     name: ORDER-SERVICE
   data:
     mongodb:
+      uri: mongodb://localhost:27017/orderdb
       host: localhost
-      port: 27017 # Default MongoDB port
-      database: orderDB # The database name
+      port: 27017
+      database: orderdb
+      repositories:
+      enabled: true
 
 eureka:
   client:
